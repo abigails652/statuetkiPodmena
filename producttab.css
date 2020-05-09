@@ -1,0 +1,38 @@
+.arw_tab_slider {
+    position: relative;
+    text-align: center;
+    min-height: 200px;
+}
+.cms-index-index .sidebar .arw_tab_slider .products-grid .item,
+.cms-index-index .arw-small-col .arw_tab_slider .products-grid .item,
+.cms-index-index .sidebar .arw_tab_slider .products-list .item,
+.cms-index-index .arw-small-col .arw_tab_slider .products-list .item {
+    min-height: 115px;
+}
+
+/*-------------------------Ajax-----------------------------*/
+div#ajax_loading_tab {
+    background: no-repeat scroll 50% 50% transparent;
+    display: none;
+    height: 100px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100px;
+    z-index: 9999;
+}
+div#backgroundajax_tab {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    background-color: #E3E3E3;
+    opacity: 0.3;
+}
