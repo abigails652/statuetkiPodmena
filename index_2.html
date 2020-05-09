@@ -1,0 +1,928 @@
+<html lang="en" data-scrapbook-source="https://static.mailerlite.com/data/a/258/258577/webforms/q8y5c4/1101/1101608/page.html?v=1588774752" data-scrapbook-create="20200506141932414">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    
+    
+    <title></title> 
+    <style>
+      @import url("css-3.css");
+    </style>
+  <style>
+      
+      * { padding: 0; margin: 0; } 
+                 
+      body {
+        
+        background: none !important;
+        font-size: 16px;
+        font-family: Arial;
+        
+      }
+      
+      /* Reset */
+      
+      .mb0 { margin-bottom: 0px !important;}
+      
+      .mb05 { margin-bottom: 5px !important; }
+      
+      .mb10 { margin-bottom: 10px !important; }
+      
+      .mb15 { margin-bottom: 15px !important; }
+      
+      .mb20 { margin-bottom: 20px !important; }
+      
+      .mb30 { margin-bottom: 30px !important; }
+      
+      .mb50 { margin-bottom: 50px !important; }
+      
+      .mt0 { margin-top: 0px !important; }
+      
+      .mt15 { margin-top: 15px !important; }
+      
+      .mailerlite-container {
+        
+        box-sizing: border-box;
+        display: table;
+        height: 100%;
+        margin: 0 auto;
+        position: static;
+        width: 100% !important;
+        
+      }
+
+      .description p { margin: 0 0 10px 0; }
+      
+      .description p:last-child { margin: 0; }
+      
+      .description a:hover { text-decoration: none; }
+      
+      .ml-confirmation-text input { line-height: 20px; }
+      
+      .input-group .form-control, 
+      .form-group .form-control {
+        
+        height: auto;
+        box-shadow: none;
+        
+      }
+      
+      .form-control:focus {
+        
+        box-shadow: none;
+        z-index: 1;
+        
+      }
+          
+      .checkbox.ml-error label {
+        
+        border-bottom: 2px solid red;
+        
+      }
+      
+      .ml-error .label-description {
+        color: #ff0000 !important;
+      }    
+                 
+      /* Overlay */ 
+      
+      .overlay {
+        
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        width: 100%;
+        height: 100%; 
+        overflow: auto;
+        overflow-x: hidden;
+        cursor: default;
+        
+      }
+       
+      .overlay-close {
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        cursor: default;
+        
+      }
+		
+	.mlPopupConfirmation.checkbox {
+
+		margin: 0;
+
+	  }
+
+	  .mlPopupConfirmation.checkbox p:last-child {
+
+		margin: 0;
+
+	  }
+
+	  .mlPopupConfirmation.checkbox a {
+
+		margin: 0;
+
+	  }
+      
+      @media only screen and (max-width: 768px) {
+      
+        h1,h2,h3 {
+        
+          word-break: break-word !important;
+        
+        }
+        
+        .btn {
+        
+          white-space: normal !important;
+        
+        }
+        
+      }  
+                
+    </style><style>
+      
+      /* MailerLite Fullscreen Popup */
+      
+      .mailerlite-container.fullscreen {
+        
+        background-color: rgba(245, 245, 245, 1);
+				 
+        
+      }
+      
+      .mailerlite-vertical-align-center {
+          
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        
+      }
+      
+      .mailerlite-fullscreen {
+      
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        max-width: 920px;       
+
+      }
+      
+      .mailerlite-fullscreen h3 {
+      
+        margin: 0px 0px 0px 0px;
+        color: #333333;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+      
+      }
+      
+      .mailerlite-fullscreen .description {
+      
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        color: #666666;
+        font-size: 22px;
+      
+      }
+      
+      .mailerlite-fullscreen .description a {
+      
+        color: #666666;
+        text-decoration: underline; 
+      
+      }
+      
+      /* Input & Button */
+      
+      .mailerlite-fullscreen .input-group .form-control,
+      .mailerlite-fullscreen .form-group .form-control {
+        
+        background: #ffffff;
+        color: #333333;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 20px 15px;
+
+      }
+      
+      .mailerlite-fullscreen .input-group .form-control {
+       
+        border-color: #999999;
+        border-radius: 6px 0px 0px 6px;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        z-index: 3;
+        
+      }
+      
+      .mailerlite-fullscreen .form-group .form-control {
+       
+        border-color: #999999;
+        border-radius: 6px;
+        border-style: solid;
+        border-width: 1px;
+        
+      }
+      
+      .mailerlite-fullscreen .ml-error input {
+      
+        background: url("error-icon.png") 97% center no-repeat #ffffff !important;
+        background-size: 24px 24px !important;
+      
+      }
+      
+      .mailerlite-fullscreen .btn {
+        
+        background: #B86B77;
+        border: none;
+        border-radius: 6px !important;
+        color: #ffffff;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 25px 30px;
+        text-transform: uppercase;
+        width: 100%;
+      
+      }
+            
+      .mailerlite-fullscreen .btn:hover, 
+      .mailerlite-fullscreen .btn:focus, 
+      .mailerlite-fullscreen .btn:active {
+      
+        background: #B86B77;
+        color: #ffffff;
+      
+      }
+      
+      .mailerlite-fullscreen .input-group-btn .btn {
+        
+        border-color: #999999;
+        border-radius: 0px 6px 6px 0px !important;
+        border-style: solid;
+        border-width: 1px 1px 1px 0px;
+      
+      }
+      
+      .mailerlite-fullscreen .cl-btn {
+        
+        background: #a2a2a2;
+        border: none;
+        color: #ffffff;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+      
+      }
+      
+      .mailerlite-fullscreen .btn.cl-btn:hover, 
+      .mailerlite-fullscreen .btn.cl-btn:focus, 
+      .mailerlite-fullscreen .btn.cl-btn:active {
+      
+        background: #8b8b8b;
+        color: #ffffff;
+      
+      }
+      
+      .mailerlite-fullscreen label {
+      
+        width: 100%;
+/*         margin-bottom: 10px; */
+        text-align: left;
+        color: #666666;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+      
+      }
+      
+      .mailerlite-fullscreen .ml-confirmation-text {
+        
+        color: #666666;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+      
+      }
+      
+      /* --- */
+      
+      .mailerlite-fullscreen .close-popup {
+          
+        color: #f5f5f5;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px;
+        z-index: 999;
+          
+      }
+      
+      .mailerlite-fullscreen .close-popup:hover, 
+      .mailerlite-fullscreen .close-popup:active, 
+      .mailerlite-fullscreen .close-popup:focus {
+      
+        text-decoration: none;
+        color: #f5f5f5;
+        outline: none;   
+        
+      }
+      
+      .mailerlite-fullscreen .close-text {
+        
+        color: ;
+        font-family: ;
+        font-size: px;
+          
+      }
+      
+      .mailerlite-fullscreen .close-text:hover, 
+      .mailerlite-fullscreen .close-text:active, 
+      .mailerlite-fullscreen .close-text:focus {
+      
+        text-decoration: underline;
+        color: ;
+        
+      }
+      
+      .close-popup-arrow {
+      
+        color: #f5f5f5;
+        position: absolute;
+        top: 90%;
+        height: 50px;
+        width: 50px;
+        line-height: 45px;
+        text-align: center;
+        font-size: 30px;
+        left: 50%;
+        margin-left: -25px;
+        border: 3px solid #f5f5f5;
+        border-radius: 50%;
+      
+      }
+      
+      .close-popup-arrow:hover, 
+      .close-popup-arrow:active, 
+      .close-popup-arrow:focus {
+      
+        text-decoration: none;
+        color: #f5f5f5;
+        outline: none;   
+        border: 3px solid #f5f5f5;
+      
+      }
+      
+      @media only screen and (max-width: 768px) {
+        
+        .mailerlite-container.fullscreen { height: auto !important }
+        
+        .mb50 {
+          
+          margin-bottom: 15px !important;
+          
+        }
+      
+        .mailerlite-vertical-align-center {
+        
+          vertical-align: bottom !important;
+        
+        }
+        
+        .mailerlite-fullscreen {
+          
+          padding: 15px !important;
+          
+        }
+        
+        .mailerlite-fullscreen h3 {
+        
+          font-size: 18px;
+        
+        }
+        
+        .mailerlite-fullscreen .description {
+        
+          font-size: 13px;
+        
+        }
+        
+        .mailerlite-fullscreen .close-text {
+        
+          font-size: px;
+        
+        }
+        
+        .mailerlite-fullscreen .popup-content {
+          
+          margin: 0px 15px 15px 15px !important;
+          
+        }
+        
+        .mailerlite-fullscreen .popup-form {
+          
+          margin-bottom: 0px !important;
+          
+        }
+        
+        .mailerlite-fullscreen .checkbox,
+        .mailerlite-fullscreen .checkbox label { 
+        
+          margin-bottom: 0px !important;
+        
+        }
+        
+        .mailerlite-fullscreen .popup-content .row.mb15 {
+          
+          margin-bottom: 5px !important;
+          
+        }
+        
+        .mailerlite-fullscreen .input-group .form-control, 
+        .mailerlite-fullscreen .form-group .form-control,
+        .mailerlite-fullscreen .btn {
+          
+          font-size: 13px !important;
+          line-height: 19px !important;
+          padding: 10px 15px !important;
+          width: 100% !important;
+          
+        }
+        
+        .mailerlite-fullscreen label {
+          
+          font-size: 13px !important;
+          line-height: 19px !important;
+          
+        }
+        
+        .mailerlite-fullscreen .confirmation {
+          
+          margin-bottom: 15px !important;
+          
+        }
+        
+        .mailerlite-fullscreen .input-group {
+          
+          display: block !important;
+          
+        }
+        
+        .mailerlite-fullscreen .input-group .form-control {
+          
+          border-radius: 6px !important;
+          margin-bottom: 15px !important;;
+          
+        }
+        
+        .mailerlite-fullscreen .input-group .btn {
+          
+          border-radius: 6px !important;
+          
+        }
+        
+        .mailerlite-fullscreen .cl-btn {
+          
+          margin-top: 15px !important;
+          
+        }
+        
+      }
+      
+    </style><meta name="robots" content="noindex, nofollow">
+</head>
+  <body>
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+               
+      
+                
+    
+    
+    
+    
+      
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+    
+      		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+    
+      		
+        	
+        
+         
+        
+        	
+        
+          
+        
+        	
+        
+                 
+      
+    
+      	
+        	
+        
+                
+        
+        
+        	
+        
+                
+        
+        
+        	
+        
+                
+        
+      
+    
+      	
+        	
+        
+                
+        
+        
+        	
+        
+                
+         
+      
+    
+      
+        		
+        	
+                
+        
+        
+        
+        
+        		
+        	
+                
+        
+        	
+        
+        
+        		
+        	
+              
+        
+        	
+        
+      
+    
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        	
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+        
+        
+        
+        
+        
+      
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        	
+        
+         
+      
+      
+       
+      	
+      	
+      	
+        
+      	
+      
+      
+      
+      	
+      	
+      	
+        
+      	
+      
+    
+    
+		
+		
+		
+		      
+	  
+			 
+	  
+		
+		
+		
+		
+	 
+		
+	  
+		
+		
+		
+		
+		
+	  
+
+	  
+		
+		
+		
+		
+		
+	
+    
+      
+    		      
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+    
+     
+        
+  <div class="overlay">
+    <div class="mailerlite-container fullscreen">
+      <div class="mailerlite-vertical-align-center">
+      	<div class="mailerlite-fullscreen">
+          <a href="javascript:" class="glyphicon glyphicon-remove close-popup visible-xs"></a>
+      		<div class="row row-form">
+      			<div class="col-sm-12 ml-subscribe-form" id="mlb2-1101608">
+      				<form action="https://app.mailerlite.com/webforms/submit/q8y5c4" data-code="q8y5c4" method="POST" target="_blank">
+                <style type="text/css">
+  .ml_message_wrapper {
+    position: absolute !important;
+    left: -9999px !important;
+  }
+</style>
+
+<div aria-label="Please leave the following field empty" class="ml_message_wrapper">
+  <input type="text" name="ml_message" tabindex="-1" value="" placeholder="Message" autocomplete="off" title="message">
+  <input type="text" name="ml_email" tabindex="-1" value="" placeholder="Email" autocomplete="off" title="email">
+  <input type="text" name="ml_name" tabindex="-1" value="" placeholder="Name" autocomplete="off" title="name">
+</div>
+
+
+                <div class="row mb50 popup-content">
+      						
+      							<div class="row mb50">
+      								<div class="col-sm-12">
+      									<h3>
+      										10% popust pri tvojem prvem naročilu
+      									</h3>
+      								</div>
+      							</div>
+      							<div class="row">
+      								<div class="col-sm-12">
+      									<div class="description">
+      										<p>Vpiši svoje ime in elektronski naslov ter prejmi darilno kodo!</p>
+      									</div>
+      								</div>
+      							</div>
+      						
+      					</div>
+      					<div class="row">
+      						<div class="col-sm-8 col-sm-offset-2">
+      							
+      								
+      									
+      								
+      								
+      									
+      								 
+      								<div class="row mb0 ml-subscribe-fields popup-form">
+      									<div class="col-sm-12">
+      										<div>
+      											<div class="form-group ml-field-name ml-validate-required ml-error">
+      												<label>Tvoje ime</label>
+      												<input type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="" value="">
+      											</div>
+      										</div><div>
+      											<div class="form-group ml-field-email ml-validate-email ml-validate-required ml-error">
+      												<label>Elektronski naslov</label>
+      												<input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="" value="">
+      											</div>
+      										</div>
+      									</div>
+      								</div>
+								
+     								
+     							
+                  
+                  
+              
+              
+              <div class="row mb15">
+                <div class="col-xs-12">
+                  
+                    <div class="mlPopupConfirmation checkbox ml-validate-required ml-error">
+                      <label class="ml-confirmation-text">
+                      <input type="checkbox"> <p><span style="font-size: 11px;">Z izpolnitvijo obrazca se strinjate, da Trend.S: d.o.o. pridobi, hrani in obdeluje vaše osebne podatke.</span></p>
+<p><span style="font-size: 11px;">Seznanjen/a sem s&nbsp;<a href="https://www.modnadama.si/obdelava-osebnih-podatkov?utm_source=popust&amp;utm_medium=za-mail" target="_blank" rel="noopener">pravno podlago za obdelavo podatkov, z obdobjem hrambe podatkov, da upravljalec določene podatke obdeluje s pogodbenimi delavci in da upravljalec izvaja statistično obdelavo podatkov za namene internih analiz.&nbsp; Seznanjen/a sem s svojimi pravicami glede osebnih podatkov, pravico do preklica ali zahtevka za prekinitev obdelave osebnih podatkov.</a></span></p>
+<p><span style="font-size: 11px;">Seznanjen/a sem, da lahko Trend.S. d.o.o. na podlagi mojih osebnih podatkov do mojega preklica izvaja&nbsp;<a href="https://www.modnadama.si/obdelava-osebnih-podatkov?utm_source=popust&amp;utm_medium=za-mail" target="_blank" rel="noopener">osnovno prilagojeno komuniciranje</a>&nbsp;s prilagojenimi ponudbami in vsebinami.</span><br></p> 
+                      </label>
+                    </div>
+                  
+                </div>
+              </div>
+								
+  						<div class="row">
+  							<div class="col-xs-12">
+
+                  <style type="text/css">
+  .ml-form-recaptcha {
+    margin-bottom: 20px;
+  }
+
+  .ml-form-recaptcha.ml-error iframe {
+    border: solid 1px #ff0000;
+  }
+</style>
+
+
+
+
+                  
+                    <div class="row">
+                    	
+                    	
+                      
+                      
+                    	<div class="col-sm-6">
+                    		<button class="btn primary more1" type="submit">Želim POPUST</button>
+                    		<button disabled="disabled" style="display: none;" type="button" class="loading btn more2"><img src="rolling.gif" width="20" height="20" style="width: 20px; height: 20px; margin: 0 auto; display: block;" border="0"></button>
+                    	</div>
+                    	<div class="col-sm-6">
+                    		
+                    		<a class="btn cl-btn" href="javascript:">Ne želim ugodnosti</a>
+                    	</div>
+                    </div>
+                  
+  							</div>
+  						</div>
+      								
+      						</div>
+      					</div>
+      					
+            		<input type="hidden" name="ml-submit" value="1">
+      				</form>
+      			</div>
+      		</div>
+      		<div class="row row-success" style="display: none">
+      			<div class="col-sm-8 col-sm-offset-2">
+      				<div class="row mb50">
+      					
+      						<div class="row mb50">
+      							<div class="col-sm-12">
+      								<h3>
+      									Hvala!
+      								</h3>
+      							</div>
+      						</div>
+      						<div class="row">
+      							<div class="col-sm-12">
+      								<div class="description">
+      									<p style="text-align: center;"><span style="color: rgb(234, 24, 152);"><span style="font-size: 12px;"><span style="font-size: 14px;"><span style="font-size: 15px;"><span style="font-size: 18px;"><span style="color: rgb(0, 0, 0);">Uspešno ste se prijavili na e-novice.</span></span></span></span></span></span></p><p style="text-align: center;"><span style="color: rgb(234, 24, 152);"><span style="font-size: 12px;"><span style="font-size: 14px;"><span style="font-size: 15px;"><span style="font-size: 18px;"><span style="color: rgb(0, 0, 0);"><br></span></span></span></span></span></span></p><p style="text-align: center;"><span style="font-size: 30px;"><span style="color: rgb(234, 24, 152);">Vaša darilna koda:<strong>&nbsp;</strong><u><strong>XM28G</strong></u></span></span><br></p>
+<ul></ul>
+
+      								</div>
+      							</div>
+      						</div>
+      					
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="row row-form close-block">
+      		<a href="javascript:" class="close-popup-arrow glyphicon glyphicon-menu-down hidden-xs"></a>
+      	</div>
+      </div>
+    </div>
+  </div>
+      
+      
+            
+        
+  
+    <div style="display: none">
+    
+
+
+    </div>
+    
+    
+    
+        
+    
+
+</body>
+</html>
